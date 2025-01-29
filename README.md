@@ -3493,11 +3493,20 @@ style.textContent = `
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   }
 
+/* Update the coupon header styles */
 .coupon-header-text h2 {
-    font-size: 24px; /* Default size for desktop */
+    font-size: 24px;
     font-weight: 600;
     color: #FFF;
     margin-bottom: 16px;
+    border-bottom: none;
+    text-decoration: none;
+    border: none;
+    position: relative;
+}
+
+.coupon-header-text h2::after {
+    content: none;
 }
 
   .coupon-header {
@@ -3688,10 +3697,18 @@ style.textContent = `
 }
 
 .real-estate-header h2 {
-    font-size: 24px; /* Default size for desktop */
+    font-size: 24px;
     font-weight: 600;
     color: #FFF;
     margin-bottom: 16px;
+    border-bottom: none;
+    text-decoration: none;
+    border: none;
+    position: relative;
+}
+
+.real-estate-header h2::after {
+    content: none;
 }
 
 .property-title {
@@ -3963,11 +3980,19 @@ style.textContent = `
 }
 
 .job-header-text h2 {
-  font-size: 24px; /* Default size for desktop */
-  font-weight: 600;
-  color: #FFF;
-  margin-bottom: 16px;
-    }
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFF;
+    margin-bottom: 16px;
+    border-bottom: none;
+    text-decoration: none;
+    border: none;
+    position: relative;
+}
+
+.job-header-text h2::after {
+    content: none;
+}
 
 .job-title {
   font-size: 18px;
